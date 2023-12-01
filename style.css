@@ -33,11 +33,13 @@ body{
 
   td,th {
     border:1px solid black;
+    text-align: center;
+
   }
 
   .Fill_form{
     Border:1px solid gray;
-    width:80%;
+    width:60%;
     display:flex;
     flex-direction: column;
     padding:10px;
@@ -60,3 +62,14 @@ body{
   .Fill_form label{
     margin:5px;
   }
+
+  .Working_table tr th{
+    background-color: aqua;
+
+  }
+
+  .Form_button{
+    display: flex;
+    flex-direction: row;
+  }
+  
